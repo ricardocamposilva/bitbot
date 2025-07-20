@@ -1,16 +1,15 @@
 # Introduction
 ## This project is in development process
 
-This project is intended to studies purpose only not real use, so, I am not responsible for any financial loss that you have.
+This project explores the application of artificial intelligence in cryptocurrency trading and is intended solely for research and educational purposes.
 
-Bitbot is a AI bot to operate stocks, mainly crypto as bitcoins, ethereum, cardano and much others that we can choose inside our database.
-Its indicators will provide informations for AI algorithm that will try to take action into market operations, entering or not into the buy or sell.
+Bitbot is an AI trading bot engineered to analyze and operate on major cryptocurrency tickers, including Bitcoin (BTC), Ethereum (ETH), and Cardano (ADA). The system leverages a suite of technical indicators to generate insights, which then feed into a sophisticated AI algorithm. This algorithm is designed to intelligently determine entry and exit points for market operations, optimizing for buy or sell decisions.
 
-We will use simple Linear regression to predict inside a forecast the future prices and take the action each minute, positioning and managing risk within your account and params you provided to the backend, such as risk level of your account in percentage, if you want trailing stops, and your target levels.
+The core predictive engine of Bitbot is powered by a Long Short-Term Memory (LSTM) deep learning model, implemented using TensorFlow. This model is trained on historical price data for the selected cryptocurrencies and timeframes to forecast future price movements.
+
 
 # Technical specs
 
 * Tensorflow
-* Python (Flask)
+* Python
 * SQLite
-* Frontend with angular
